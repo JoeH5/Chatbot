@@ -13,10 +13,10 @@ public class TwitterAPI {
 		ConfigurationBuilder builder = new ConfigurationBuilder();
 		
 		builder.setDebugEnabled(true);
-		builder.setOAuthConsumerKey("Ofrvo54qwqNgImrOvmkeghnsE");
-		builder.setOAuthConsumerSecret("fTMGUlG6UeXrWHkR4SDOmgM4TnM8wp4zn6DlpsAQyTxW0DhC8x");
-		builder.setOAuthAccessToken("2457270114-t28so66E0iiBKnWXzDAkXszqojFNeix7gszeS6l");
-		builder.setOAuthAccessTokenSecret("OZe8cJSjoHF7wvHGIE4wyDX41X68Kdlb4MFfLH66uZFfR");
+		builder.setOAuthConsumerKey("");
+		builder.setOAuthConsumerSecret("");
+		builder.setOAuthAccessToken("");
+		builder.setOAuthAccessTokenSecret("");
 		builder.setJSONStoreEnabled(true);
 		
 		TwitterFactory tf = new TwitterFactory(builder.build());
